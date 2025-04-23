@@ -4,4 +4,3 @@ scikit-learn
 streamlit
 urllib
 urllib.parse
-pickle
