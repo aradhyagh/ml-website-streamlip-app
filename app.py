@@ -55,7 +55,7 @@ else:
   putput = "Unknown"
 
 if st.button("Predict"):
-    print(putput)
+    ss.write("prediction:", putput)
 
 
 
