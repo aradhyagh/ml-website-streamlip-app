@@ -1,6 +1,4 @@
-numpy
-pandas
-scikit-learn
 streamlit
-urllib
-urllib.parse
+scikit-learn
+pandas
+numpy
