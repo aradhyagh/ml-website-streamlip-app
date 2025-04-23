@@ -12,10 +12,10 @@ import pickle
 import numpy as np
 from urllib.parse import urlparse
 
-with open('/content/rf_model7_features.pkl', 'rb') as file:
+with open('rf_model7_features.pkl', 'rb') as file:
     model = pickle.load(file)
 
-with open('/content/rf_scalar7_features.pkl', 'rb') as file:
+with open('rf_scalar7_features.pkl', 'rb') as file:
     ss2 = pickle.load(file)
 
 st.title('URL prediction')
