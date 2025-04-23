@@ -49,14 +49,13 @@ scaled_features = ss2.transform(features)
 pred = model.predict(scaled_features)[0]
 if pred == 1:
   output = "Phishing"
-  st.write(output)
 elif pred == 0:
   output = "Legitimate"
-  st.write(output)
 else:
   putput = "Unknown"
-  st.write(output)
 
+if st.button("Predict"):
+    print(putput)
 
 
 
