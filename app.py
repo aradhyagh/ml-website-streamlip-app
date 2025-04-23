@@ -46,7 +46,7 @@ else:
                           feature1.count(".")]])
 
 scaled_features = ss2.transform(features)
-pred = model.predict(scaled)[0]
+pred = model.predict(scaled_features)[0]
 if pred == 1:
   output = "Phishing"
   st.write(output)
