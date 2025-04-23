@@ -11,6 +11,9 @@ import streamlit as st
 import pickle
 import numpy as np
 from urllib.parse import urlparse
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+
 
 with open('rf_model7_features.pkl', 'rb') as file:
     model = pickle.load(file)
